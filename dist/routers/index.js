@@ -10,5 +10,4 @@ const textPrediksi_router_1 = __importDefault(require("./textPrediksi.router"));
 const router = express_1.default.Router();
 router.use("/image-prediksi", ImagePrediksi_router_1.default);
 router.use("/text-prediksi", textPrediksi_router_1.default);
-// router.get("/product", Ecommerce);
 exports.default = router;
