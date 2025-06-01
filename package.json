@@ -18,7 +18,8 @@
   },
   "scripts": {
     "dev": "nodemon",
-    "build": "npx tsc",
+    "postinstall": "chmod +x ./node_modules/.bin/tsc",
+    "build": "tsc",
     "start": "node dist/index.js"
   }
 }
