@@ -6,6 +6,5 @@ const router = express.Router();
 
 router.use("/image-prediksi", imagePrediksiRouter);
 router.use("/text-prediksi", textPrediksiRouter);
-// router.get("/product", Ecommerce);
 
 export default router;
